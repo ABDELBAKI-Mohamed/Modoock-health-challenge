@@ -49,7 +49,7 @@ We will evaluate your submission based on the following:
 
 ---
 
-## 💡 About Modook Health
+## 💡 About Modoock Health
 
 **Modoock Health** is a healthcare platform in progress, aiming to simplify and innovate healthcare services. As a Moroccan solution, it’s designed with local needs in mind, while striving to bring impactful changes to the way healthcare works.
 
