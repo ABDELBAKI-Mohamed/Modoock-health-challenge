@@ -1,3 +1,20 @@
+# Modoock Health Internship Challenge
+
+Thank you for your interest in our challenge! This document outlines everything you need to know about the role-based system project you'll be working on for **Modoock Health**.
+
+---
+
+## 💼 Challenge Overview
+
+Your challenge is to develop a web-based role management system with the following features:
+
+### 1. User Authentication
+- Create a login system using a secure method of your choice, so long as the storage system on which is based is on the database we create on supabase.
+- Route users to different dashboards based on their role:
+  - **Admin**
+  - **Manager**
+  - **User**
+
 # Modook Health Internship Challenge
 
 Thank you for your interest in our internship program! This document outlines everything you need to know about the role-based system project you'll be working on for **Modook Health**.
@@ -12,14 +29,13 @@ Your challenge is to develop a web-based role management system with the followi
 - Create a login system with hashed password authentication.
 - Route users to different dashboards based on their role:
   - **Admin**
-  - **Manager**
-  - **User**
+  - **Doctor**
+  - **Receptionist**
 
 ### 2. Role-Based Dashboards
-- **Admin Dashboard**: Displays system activity, user management tools, and database statistics.
-- **Manager Dashboard**: Focuses on task assignments, progress tracking, and team performance.
-- **User Dashboard**: Displays assigned tasks, updates, and personalized content.
-- All dashboards must dynamically pull content from a **PostgreSQL database** (hosted on [Supabase](https://supabase.com/)).
+- **Admin Dashboard**: Displays a list of all registered users (patients) with details such as name, registration date, and status (active/inactive). Data is pulled dynamically from the `patients` table.
+- **Doctor Dashboard**: Displays the day's consultation list, including patient names, appointment times, and consultation statuses. Data is pulled dynamically from the `consultations` table.
+- **Receptionist Dashboard**: Displays the appointment schedule for the day, including appointment times, patient names, and assigned doctors. Data is pulled dynamically from the `appointments` table.
 
 ### 3. Responsive UI
 - Ensure all pages (login and dashboards) work smoothly on both mobile and desktop devices.
@@ -29,18 +45,14 @@ Your challenge is to develop a web-based role management system with the followi
 
 ### 5. GitHub Repository
 - Your repository should include:
-  - **Clear project structure** and **setup instructions**.
+  - **Clear project structure**.
   - **Features** of the application.
-  - **Screenshots** or a **live demo link** showcasing your dashboards.
 
 ---
 
 ## 📥 How to Apply
 
-To apply for this internship, please submit the following:
-
-1. A link to your deployed application hosted on **Vercel**.
-2. Your CV sent via email to **[Insert Email Address]**.
+To apply for this internship, please submit a link to your deployed application hosted on **Vercel** as well as your CV sent via email to **contact@modoock.com**.
 
 ---
 
@@ -49,14 +61,13 @@ To apply for this internship, please submit the following:
 We will evaluate your submission based on the following:
 
 1. **Functionality**: Does your app meet the requirements?
-2. **Code Quality**: Is your code clean, efficient, and well-organized?
-3. **Design & Responsiveness**: Is the UI intuitive and user-friendly?
-4. **Documentation**: Is your GitHub repository well-documented?
+2. **Design & Responsiveness**: Is the UI intuitive and user-friendly?
+3. **Code Quality**: Is your code clean, efficient, and well-organized?
 
 ---
 
 ## 💡 About Modook Health
 
-**Modook Health** is a cutting-edge healthcare platform focused on streamlining healthcare services and delivering innovative solutions. Join us to be part of something impactful!
+**Modoock Health** is a healthcare platform in progress, aiming to simplify and innovate healthcare services. As a Moroccan solution, it’s designed with local needs in mind, while striving to bring impactful changes to the way healthcare works.
 
 ---
