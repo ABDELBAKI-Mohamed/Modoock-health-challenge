@@ -1,23 +1,6 @@
 # Modoock Health Internship Challenge
 
-Thank you for your interest in our challenge! This document outlines everything you need to know about the role-based system project you'll be working on for **Modoock Health**.
-
----
-
-## 💼 Challenge Overview
-
-Your challenge is to develop a web-based role management system with the following features:
-
-### 1. User Authentication
-- Create a login system using a secure method of your choice, so long as the storage system on which is based is on the database we create on supabase.
-- Route users to different dashboards based on their role:
-  - **Admin**
-  - **Manager**
-  - **User**
-
-# Modook Health Internship Challenge
-
-Thank you for your interest in our internship program! This document outlines everything you need to know about the role-based system project you'll be working on for **Modook Health**.
+Thank you for your interest in our announcement! This document outlines everything you need to know about the role-based system project you'll be working on for this challenge.
 
 ---
 
