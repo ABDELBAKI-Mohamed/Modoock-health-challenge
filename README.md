@@ -35,7 +35,7 @@ Your challenge is to develop a web-based role management system with the followi
 
 ## 📥 How to Apply
 
-To apply for this internship, please submit a link to your deployed application hosted on **Vercel** as well as your CV sent via email to **contact@modoock.com**.
+To apply for this internship, please send a link to your deployed application hosted on **Vercel** as well as your CV via email to **contact@modoock.com**.
 
 ---
 
